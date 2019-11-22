@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Gmail Suite" preserve-order="true">
+
+	<test name="Login to Gmail">
+		<parameter name="browser" value="chrome" />
+		<classes>
+        <class name="com.gmail.testCases.TC_GmailLoginTestDDT_002" /> 
+		</classes>
+	</test>
+
+	<test name="Gmail Login Test Parameterization">
+		<parameter name="browser" value="chrome" />
+		<parameter name="user" value="abcd"/>
+		<parameter name="pwd" value="Srikant143@"/>
+
+		<classes>
+        <class name="com.gmail.testCases.TC_GmailLoginTestParameterization_003" />  
+		</classes>
+	</test>
+		
+	<test name="Gmail Login Test DDT">
+		<parameter name="browser" value="chrome" />
+		<classes>
+        <class name="com.gmail.testCases.TC_GmailLoginTest_001" /> 
+		</classes>
+	</test>
+
+</suite>

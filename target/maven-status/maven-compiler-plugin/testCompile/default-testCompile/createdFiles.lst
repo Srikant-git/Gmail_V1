@@ -1,0 +1,7 @@
+com\gmail\testCases\BaseClass.class
+com\gmail\testCases\TC_GmailLoginTestParameterization_003.class
+com\gmail\testCases\TC_GmailLoginTestDDT_002.class
+com\gmail\testCases\TC_GmailLoginTest_001.class
+com\gmail\pageObjects\LoginPage.class
+com\gmail\utilities\XLUtils.class
+com\gmail\utilities\ReadConfig.class

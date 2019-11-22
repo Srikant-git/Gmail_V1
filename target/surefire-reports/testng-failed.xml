@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Gmail Suite]">
+  <test thread-count="5" verbose="0" name="Login to Gmail(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.gmail.testCases.TC_GmailLoginTestDDT_002">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="loginDDT" invocation-numbers="0 1 2 3"/>
+          <include name="setUpSuite"/>
+        </methods>
+      </class> <!-- com.gmail.testCases.TC_GmailLoginTestDDT_002 -->
+    </classes>
+  </test> <!-- Login to Gmail(failed) -->
+  <test thread-count="5" verbose="0" name="Gmail Login Test DDT(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.gmail.testCases.TC_GmailLoginTest_001">
+        <methods>
+          <include name="LoginTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUpSuite"/>
+        </methods>
+      </class> <!-- com.gmail.testCases.TC_GmailLoginTest_001 -->
+    </classes>
+  </test> <!-- Gmail Login Test DDT(failed) -->
+</suite> <!-- Failed suite [Gmail Suite] -->

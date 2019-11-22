@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Gmail Suite" duration-ms="182835" started-at="2019-11-22T06:18:27Z" finished-at="2019-11-22T06:21:29Z">
+    <groups>
+    </groups>
+    <test name="Login to Gmail" duration-ms="119660" started-at="2019-11-22T06:18:27Z" finished-at="2019-11-22T06:20:26Z">
+      <class name="com.gmail.testCases.TC_GmailLoginTestDDT_002">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.gmail.testCases.TC_GmailLoginTestDDT_002@6d8a00e3]" name="setup" is-config="true" duration-ms="14352" started-at="2019-11-22T06:18:27Z" finished-at="2019-11-22T06:18:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.gmail.testCases.TC_GmailLoginTestDDT_002@6d8a00e3]" name="loginDDT" duration-ms="47965" started-at="2019-11-22T06:18:42Z" data-provider="LoginData" finished-at="2019-11-22T06:19:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[srikant.automation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Srikant143@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method status="PASS" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.gmail.testCases.TC_GmailLoginTestDDT_002@6d8a00e3]" name="loginDDT" duration-ms="4661" started-at="2019-11-22T06:19:30Z" data-provider="LoginData" finished-at="2019-11-22T06:19:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method status="PASS" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.gmail.testCases.TC_GmailLoginTestDDT_002@6d8a00e3]" name="loginDDT" duration-ms="4563" started-at="2019-11-22T06:19:35Z" data-provider="LoginData" finished-at="2019-11-22T06:19:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method status="PASS" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.gmail.testCases.TC_GmailLoginTestDDT_002@6d8a00e3]" name="loginDDT" duration-ms="45643" started-at="2019-11-22T06:19:39Z" data-provider="LoginData" finished-at="2019-11-22T06:20:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[msrikant.career]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Srikant039@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gmail.testCases.TC_GmailLoginTestDDT_002@6d8a00e3]" name="tearDown" is-config="true" duration-ms="1466" started-at="2019-11-22T06:20:25Z" finished-at="2019-11-22T06:20:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gmail.testCases.TC_GmailLoginTestDDT_002 -->
+    </test> <!-- Login to Gmail -->
+    <test name="Gmail Login Test Parameterization" duration-ms="12773" started-at="2019-11-22T06:20:26Z" finished-at="2019-11-22T06:20:39Z">
+      <class name="com.gmail.testCases.TC_GmailLoginTestParameterization_003">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.gmail.testCases.TC_GmailLoginTestParameterization_003@2a2d45ba]" name="setup" is-config="true" duration-ms="10995" started-at="2019-11-22T06:20:26Z" finished-at="2019-11-22T06:20:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.gmail.testCases.TC_GmailLoginTestParameterization_003@2a2d45ba]" name="loginDDT" duration-ms="1000" started-at="2019-11-22T06:20:37Z" finished-at="2019-11-22T06:20:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Srikant143@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gmail.testCases.TC_GmailLoginTestParameterization_003@2a2d45ba]" name="tearDown" is-config="true" duration-ms="776" started-at="2019-11-22T06:20:38Z" finished-at="2019-11-22T06:20:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gmail.testCases.TC_GmailLoginTestParameterization_003 -->
+    </test> <!-- Gmail Login Test Parameterization -->
+    <test name="Gmail Login Test DDT" duration-ms="50233" started-at="2019-11-22T06:20:39Z" finished-at="2019-11-22T06:21:29Z">
+      <class name="com.gmail.testCases.TC_GmailLoginTest_001">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.gmail.testCases.TC_GmailLoginTest_001@482f8f11]" name="setUpSuite" is-config="true" duration-ms="153" started-at="2019-11-22T06:18:26Z" finished-at="2019-11-22T06:18:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.gmail.testCases.TC_GmailLoginTest_001@482f8f11]" name="setup" is-config="true" duration-ms="10534" started-at="2019-11-22T06:20:39Z" finished-at="2019-11-22T06:20:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.gmail.testCases.TC_GmailLoginTest_001@482f8f11]" name="LoginTest" duration-ms="38854" started-at="2019-11-22T06:20:50Z" finished-at="2019-11-22T06:21:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gmail.testCases.TC_GmailLoginTest_001@482f8f11]" name="tearDown" is-config="true" duration-ms="844" started-at="2019-11-22T06:21:29Z" finished-at="2019-11-22T06:21:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gmail.testCases.TC_GmailLoginTest_001 -->
+    </test> <!-- Gmail Login Test DDT -->
+  </suite> <!-- Gmail Suite -->
+</testng-results>
